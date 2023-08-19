@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.principal{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.principal img{
+    height: 669px;
+    width: 1391px;
+    border-radius: 20px;
+}
+
+.Infraestrutura{
+    margin-top: 50px;
+}
+
+.Infraestrutura h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 25pt;
+}
+
+.cards{
+    margin-top: 30px;
+    display: flex;
+}
+
+.cards > div{
+    margin: 1em;
+    color: #FFFFFF;
+}
+.cards > div > p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #222;
+}
+.cards > div > img{
+    height: 239px;
+    width: 371px;
+    border-radius: 5px;
+}
